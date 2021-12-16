@@ -27,10 +27,10 @@ export class CalculadoraComponent implements OnInit {
       case "r":
           this.total = this.num1 - this.num2;
         break;
-      case "r":
+      case "m":
           this.total = this.num1 * this.num2;
         break;
-      case "r":
+      case "d":
           this.total = this.num1 / this.num2;
         break;
       default:

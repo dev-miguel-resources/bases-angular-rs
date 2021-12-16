@@ -10,6 +10,7 @@ import { GokuComponent } from './goku/goku.component';
 import { GohanComponent } from './gohan/gohan.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from "@angular/forms";
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FormsModule } from "@angular/forms";
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

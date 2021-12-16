@@ -1,5 +1,4 @@
 <app-compa></app-compa>
-<app-goku></app-goku>
-<app-calculadora></app-calculadora>
-<p>El title de app es: {{ title }}</p>
-
+<app-goku [mensaje]="x"></app-goku>
+<app-calculadora (emisor)="recibirResultado($event)"></app-calculadora>
+<p>El resultado es: {{ rpta }}</p>

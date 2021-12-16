@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompaComponent implements OnInit {
 
+  nombre: string = "";
+  apellido: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  recibirEvento(e: any) {
+    this.nombre = e.target.value;
   }
 
 }
